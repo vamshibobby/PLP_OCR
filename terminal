@@ -1,0 +1,4 @@
+npx create-next-app@latest plp-ocr --typescript --tailwind --app --src-dir
+cd plp-ocr
+npm install next@latest react@latest react-dom@latest @types/node @types/react @types/react-dom
+rm -rf lib/supabase.ts 
